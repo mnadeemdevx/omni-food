@@ -1,8 +1,9 @@
-# React + Vite
+# Omni Food
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# First, clone the repository 
 
-Currently, two official plugins are available:
+# Commands to run the project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1) npm install -g pnpm
+2) pnpm install
+3) pnpm run dev
