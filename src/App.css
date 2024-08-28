@@ -13,3 +13,21 @@ body {
     /* Only works if there is nothing absolutely positioned in relation to body */
     overflow-x: hidden;
 }
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+@media (max-width: 59em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
