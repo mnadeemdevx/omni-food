@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(253, 242, 233);
+    height: 9.6rem;
+    position: relative;
+    padding: 0px 4.8rem;
+}
+
+.logo {
+    height: 2.2rem;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 75em) {
+    .header {
+        padding: 0px 3.2rem;
+    }
+}

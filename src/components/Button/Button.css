@@ -1,0 +1,17 @@
+.btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 126, 34);
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.8rem;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: rgb(211, 84, 0);
+  }
+  
