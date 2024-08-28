@@ -9,8 +9,6 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
-
-    /* Only works if there is nothing absolutely positioned in relation to body */
     overflow-x: hidden;
 }
 
@@ -31,3 +29,18 @@ html {
     }
 }
 
+
+.container {
+    max-width: 110rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+  }
+  
+  .grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+  }
+  
+
+  
