@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
 
-const Button = ({ text, href, padding, borderRadius, backgroundColor, linkColor, marginLeft}) => {
+const Button = ({ text, href, padding, borderRadius, backgroundColor, linkColor,fontSize}) => {
   return (
     <button
       className="btn"
@@ -15,7 +15,9 @@ const Button = ({ text, href, padding, borderRadius, backgroundColor, linkColor,
       <a
         href={href}
         className="btn-link"
-        style={{ color: linkColor || '#555555'}}
+        style={{ color: linkColor || '#555555',
+           fontSize: fontSize || '1.8rem'
+        }}
       >
         {text}
       </a>
