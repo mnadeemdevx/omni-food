@@ -14,7 +14,7 @@ function Testimonials({ testimonials, gallery }) {
             <figure className="testimonial" key={index}>
               <img
                 className="testimonial-img"
-                alt={`Photo of customer ${item.name}`}
+                alt={`Photo of customer ${item.name}`} 
                 src={item.imgSrc}
               />
               <blockquote className="testimonial-text">

@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Step = ({ number, title, description, imgSrc, imgAlt }) => {
   return (
     <>
-      <div className="step-text-box">
+      <div id="how" className="step-text-box">
         <p className="step-number">{number}</p>
         <h3 className="heading-tertiary">{title}</h3>
         <p className="step-description">{description}</p>

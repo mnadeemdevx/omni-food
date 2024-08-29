@@ -7,8 +7,6 @@ import Form from "./components/contact/Form";
 import "./App.css";
 
 function App() {
-   
-
     return (
         <>
             <Header />
