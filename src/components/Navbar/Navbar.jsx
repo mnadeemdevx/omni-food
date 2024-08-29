@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../Button/Button";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
+
 const Navbar = () => {
   return (
     <nav className="main-nav">
@@ -28,18 +29,19 @@ const Navbar = () => {
         </li>
         <li>
           <Button
-            text="Try For Free"
-            href="#"
-            padding="1.2rem 2.4rem"
+            text="Try for free"
+            href="#cta"
+            padding="9px 25.6px"
             borderRadius="9px"
             backgroundColor="#e67e22"
             linkColor="#ffffff"
+            fontSize="17px"
           />
         </li>
       </ul>
       <button className="btn-mobile-nav">
-        <FaBars className="icon-mobile-nav" />
-        <FaTimes className="icon-mobile-nav" />
+        <FaBars className="icon-mobile-nav-bar" />
+        <FaTimes className="icon-mobile-nav-time hidden" />
       </button>
       <div></div>
     </nav>

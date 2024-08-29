@@ -1,8 +1,6 @@
-import { Footer, Header, MealsCards, PricingData, PricingPlans, Steps } from "./components";
-import Hero  from "./components/hero/Hero";
-import Featured from "./components/bussinessLogos/Featured";
-import Testimonial from "./components/testimonials/Testimonial";
-import Form from "./components/contact/Form";
+import { Featured, Footer, Form, Header, Hero, MealsCards, PricingData, PricingPlans, Steps, Testimonial } from "./components";
+
+
 
 import "./App.css";
 
