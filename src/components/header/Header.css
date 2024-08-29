@@ -6,30 +6,19 @@
     height: 9.6rem;
     position: relative;
     padding: 0px 4.8rem;
+    z-index: 999;
+    /* box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03); */
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
     height: 2.2rem;
 }
 
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-header {
-    display: block;
-    unicode-bidi: isolate;
-}
-
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-
 @media (max-width: 75em) {
     .header {
         padding: 0px 3.2rem;
     }
 }
+
