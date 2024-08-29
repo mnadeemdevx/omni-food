@@ -4,19 +4,20 @@
     display: grid;
     grid-template-columns: 55fr 45fr;
     align-items: center;
+    margin-bottom: 70px;
   }
   
   .testimonials-container {
-    padding: 9.6rem;
+    padding: 7.6rem;
   }
   
 .subheading{
     color: rgb(219, 113, 37);
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .heading-secondary{
-    font-size:40px;
+    font-size:42px;
     margin-bottom: 80px;
 }
 

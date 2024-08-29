@@ -2,13 +2,14 @@
 .section-hero {
     background-color: #fdf2e9;
     padding: 4.8rem 0 9.6rem 0;
-    
+    height: 100vh;
   }
   
   .hero {
     max-width: 130rem;
     margin: 0 auto;
     padding: 0 3.2rem;
+    padding-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 9.6rem;
@@ -17,7 +18,8 @@
   
   .heading-primary{
     color: rgb(58, 55, 55);
-   margin-bottom: 20px;
+    font-size: 50px;
+   margin-bottom: 23px;
   }
 
   .hero-description {
