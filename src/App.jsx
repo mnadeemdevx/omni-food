@@ -1,4 +1,4 @@
-import { Header } from "./components";
+import { Footer, Header, MealsCards, PricingData, PricingPlans, Steps } from "./components";
 import Hero  from "./components/hero/Hero";
 import Featured from "./components/bussinessLogos/Featured";
 import Testimonial from "./components/testimonials/Testimonial";
@@ -14,8 +14,13 @@ function App() {
             <Header />
             <Hero/>
             <Featured/>
+            <Steps/>
+            <MealsCards/>
             <Testimonial/>
+            <PricingPlans/>
+            <PricingData/>
             <Form/>
+            <Footer/>
         </>
     );
 }
