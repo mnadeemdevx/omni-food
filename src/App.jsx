@@ -1,21 +1,22 @@
-import { Header } from "./components";
-import Hero  from "./components/hero/Hero";
-import Featured from "./components/bussinessLogos/Featured";
-import Testimonial from "./components/testimonials/Testimonial";
-import Form from "./components/contact/Form";
+import { Featured, Footer, Form, Header, Hero, MealsCards, PricingData, PricingPlans, Steps, Testimonial } from "./components";
+
+
 
 import "./App.css";
 
 function App() {
-   
-
     return (
         <>
             <Header />
             <Hero/>
             <Featured/>
+            <Steps/>
+            <MealsCards/>
             <Testimonial/>
+            <PricingPlans/>
+            <PricingData/>
             <Form/>
+            <Footer/>
         </>
     );
 }
