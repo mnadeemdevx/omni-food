@@ -31,7 +31,7 @@ box-shadow: 0 0 0 8px #efbb8d;
     z-index: 9999;
 }
 
-.icon-mobile-nav {
+.icon-mobile-nav-bar,.icon-mobile-nav-time {
     font-size: 2rem;
     color: rgb(51, 51, 51);
 }
@@ -63,10 +63,10 @@ box-shadow: 0 0 0 8px #efbb8d;
     .main-nav-link:visited {
         font-size: 3rem;
     }
-
     .btn-mobile-nav {
         display: block;
     }
+  
 }
 
 @media (max-width: 75em) {
@@ -74,3 +74,10 @@ box-shadow: 0 0 0 8px #efbb8d;
         gap: 3.2rem;
     }
 }
+
+/* @media (max-width: 34em) {
+
+    
+  } */
+
+  

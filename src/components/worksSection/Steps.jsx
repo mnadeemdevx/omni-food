@@ -39,7 +39,7 @@ const Steps = () => {
         </h2>
       </div>
 
-      <div className="container grid grid--2-cols grid--center-v">
+      <div className="container">
         {stepsData.map((step, index) => (
           <Step
             key={index}
@@ -48,6 +48,7 @@ const Steps = () => {
             description={step.description}
             imgSrc={step.imgSrc}
             imgAlt={step.imgAlt}
+            index={index}
           />
         ))}
       </div>
