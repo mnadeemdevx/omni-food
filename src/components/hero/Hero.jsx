@@ -2,12 +2,12 @@ import React from "react";
 import "./Hero.css";
 import Button from "../Button/Button";
 import FoodImg from "../../assets/hero.png";
-import CustomerPhoto1 from "../../assets/customers/customer-1.jpg"
-import CustomerPhoto2 from "../../assets/customers/customer-2.jpg"
-import CustomerPhoto3 from "../../assets/customers/customer-3.jpg"
-import CustomerPhoto4 from "../../assets/customers/customer-4.jpg"
-import CustomerPhoto5 from "../../assets/customers/customer-5.jpg"
-import CustomerPhoto6 from "../../assets/customers/customer-6.jpg"
+import CustomerPhoto1 from "../../assets/customers/customer-1.jpg";
+import CustomerPhoto2 from "../../assets/customers/customer-2.jpg";
+import CustomerPhoto3 from "../../assets/customers/customer-3.jpg";
+import CustomerPhoto4 from "../../assets/customers/customer-4.jpg";
+import CustomerPhoto5 from "../../assets/customers/customer-5.jpg";
+import CustomerPhoto6 from "../../assets/customers/customer-6.jpg";
 
 const Hero = () => {
   return (
@@ -23,10 +23,20 @@ const Hero = () => {
             needs.
           </p>
 
-          <Button  text=" Start eating well"/>
-          <a href="#how" className="btn btn--outline">
-            Learn more &darr;
-          </a>
+          <Button
+            text="Start eating well"
+            href="#cta"
+            padding="1.2rem 2.4rem"
+            borderRadius="9px"
+            backgroundColor="#e67e22"
+            linkColor="#ffffff"
+          />
+          <Button
+            text=" Learn more  &darr;"
+            href="#how"
+            padding="1.2rem 2.4rem"
+            marginLeft="15px"
+          />
 
           <div className="delivered-meals">
             <div className="delivered-imgs">
@@ -43,11 +53,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-img-box">
-        <img
-              src={FoodImg}
-              className="hero-img"
-              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-            />
+          <img
+            src={FoodImg}
+            className="hero-img"
+            alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+          />
         </div>
       </div>
     </section>

@@ -5,8 +5,6 @@ import { Featured, Footer, Form, Header, Hero, MealsCards, PricingData, PricingP
 import "./App.css";
 
 function App() {
-   
-
     return (
         <>
             <Header />
