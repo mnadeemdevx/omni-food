@@ -19,6 +19,12 @@ margin-top: 2rem;
   overflow: hidden;
 }
 
+.container.grid.grid--2-cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.4rem;
+}
+
 .pricing-plan--complete::after {
   content: "Best value";
   position: absolute;
@@ -119,6 +125,12 @@ margin-top: 2rem;
   }
 
  
+}
+
+@media (min-width: 34em) and (max-width: 59em) {
+  .heading-secondary {
+    margin-bottom: 3rem !important;
+  }
 }
 
 @media (max-width: 59em) {
