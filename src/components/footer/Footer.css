@@ -193,7 +193,9 @@
 
 @media (max-width: 34em) {
   .footer {
-    padding: 1.6rem 1.2rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding-left: 0px;
   }
 
   .grid--footer {
